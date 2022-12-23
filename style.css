@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    position: relative;
+}
+.mouseInfo{
+    width: 70px;
+    height: 25px;
+    border: 3px solid aquamarine;
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 10px;
+    position: absolute;
+}
+.visible{
+    visibility: visible;
+}
+.hidden{
+    visibility: hidden;
+}
